@@ -1,0 +1,60 @@
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container input[type="text"],
+.input-container input[type="email"],
+.input-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-container button {
+  padding: 10px 16px;
+  font-size: 14px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.input-container button:hover {
+  background-color: #45a049;
+}
+
+.step-info {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-button {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
